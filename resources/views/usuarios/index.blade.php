@@ -40,7 +40,7 @@
                                 <tbody>
                                     @foreach ($usuarios as $usuario)
                                         <tr>
-                                            <td class="">{{ $usuario->id }}</td>
+                                            <td class="">{{ ++$i }}</td>
                                             <td class="">{{ $usuario->name_user }}</td>
                                             <td class="">{{ $usuario->email }}</td>
 
